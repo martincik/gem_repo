@@ -1,0 +1,23 @@
+== Description
+
+A gem command plugin which helps you have multiple local repositories of GEMs on your computer.
+
+== Install
+
+Install the gem with:
+
+    gem source -a http://gems.github.com && sudo gem install lacomartincik-gem_multirep
+
+== Examples
+
+== Bugs/Tickets
+
+Please submit tickets through {github's issue tracker}[http://github.com/lacomartincik/gem_multirep/issues].
+
+== TODO
+
+* Tests!
+
+== LICENSE
+
+See LICENSE.txt
