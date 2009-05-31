@@ -1,3 +1,0 @@
-module Gem::Multirep
-  
-end
