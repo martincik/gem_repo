@@ -17,15 +17,15 @@ end
 begin
   require 'jeweler'
   Jeweler::Tasks.new do |s|
-    s.name = "gem_multirep"
+    s.name = "gem_repo"
     s.description = 'A gem command plugin which helps you have multiple local repositories of GEMs on your computer.'
     s.summary = "A gem command plugin which helps you have multiple local repositories of GEMs on your computer."
     s.email = "ladislav.martincik@gmail.com"
-    s.homepage = "http://github.com/lacomartincik/gem_multirep"
+    s.homepage = "http://github.com/lacomartincik/gem_repo"
     s.authors = ["Ladislav Martincik"]
     s.has_rdoc = true
     s.extra_rdoc_files = ["README.rdoc", "LICENSE.txt"]
-    s.files = FileList["[A-Z]*", "{bin,lib,test}/**/*"]
+    s.files = FileList["[A-Z]*", "{bin,lib,test}/**/*", "pkg/*.gem"]
   end
 
 rescue LoadError
