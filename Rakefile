@@ -25,7 +25,7 @@ begin
     s.authors = ["Ladislav Martincik"]
     s.has_rdoc = true
     s.extra_rdoc_files = ["README.rdoc", "LICENSE.txt"]
-    s.files = FileList["[A-Z]*", "{bin,lib,test}/**/*", "pkg/*.gem"]
+    s.files = FileList["[A-Z]*", "{bin,lib,test}/**/*"]
   end
 
 rescue LoadError
