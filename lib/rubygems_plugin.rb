@@ -1,4 +1,4 @@
 require 'rubygems/command_manager'
-require 'rubygems/multirep'
+require 'rubygems/repo'
 
-Gem::CommandManager.instance.register_command :multirep
+Gem::CommandManager.instance.register_command :repo
